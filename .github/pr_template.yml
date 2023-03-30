@@ -1,6 +1,5 @@
-name: Bug report
+name: Create new PR
 description: File a bug report. If you need help, contact support instead
-labels: [needs-triage, bug]
 body:
   - type: markdown
     attributes:
@@ -58,13 +57,6 @@ body:
       label: Tailscale version
       description: What Tailscale version are you using?
       placeholder: e.g., 1.14.4
-    validations:
-      required: false
-  - type: textarea
-    id: other-software
-    attributes:
-      label: Other software
-      description: What [other software](https://github.com/tailscale/tailscale/wiki/OtherSoftwareInterop) (networking, security, etc) are you running?
     validations:
       required: false
   - type: input
