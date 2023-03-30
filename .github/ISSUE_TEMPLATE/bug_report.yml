@@ -17,10 +17,17 @@ body:
     validations:
       required: true
   - type: textarea
-    id: changes
+    id: screenshots
     attributes:
-      label: Are there any recent changes that introduced the issue?
-      description: If so, what are those changes?
+      label: Do you have any screenshots?
+      description: If so, please attach them here.
+    validations:
+      required: false
+  - type: textarea
+    id: recordings
+    attributes:
+      label: Do you have any recordings?
+      description: If so, please attach them here.
     validations:
       required: false
   - type: dropdown
