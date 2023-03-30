@@ -1,5 +1,6 @@
 name: Create new issue
 description: File a bug report.
+Labels: bug
 body:
   - type: textarea
     id: what-happened
