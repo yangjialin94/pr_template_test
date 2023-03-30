@@ -1,0 +1,32 @@
+name: Report a new bug.
+description: File a new feature report.
+labels: enhancement
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What is the new feature?
+      description: What do you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Why is this new feature important?
+    validations:
+      required: true
+  - type: textarea
+    id: snapshots
+    attributes:
+      label: Do you have any snapshots?
+      description: If so, please attach them here.
+    validations:
+      required: false
+  - type: textarea
+    id: recordings
+    attributes:
+      label: Do you have any recordings?
+      description: If so, please attach them here.
+    validations:
+      required: false
